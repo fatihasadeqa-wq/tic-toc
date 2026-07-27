@@ -1,0 +1,36 @@
+body{
+font-family:Arial,sans-serif;
+background:#222;
+color:white;
+text-align:center;
+}
+
+.board{
+width:306px;
+margin:20px auto;
+display:grid;
+grid-template-columns:repeat(3,100px);
+gap:3px;
+}
+
+.cell{
+width:100px;
+height:100px;
+background:#444;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:50px;
+cursor:pointer;
+}
+
+.cell:hover{
+background:#666;
+}
+
+button{
+padding:10px 20px;
+font-size:18px;
+margin-top:20px;
+cursor:pointer;
+}
